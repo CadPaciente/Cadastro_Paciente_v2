@@ -1243,7 +1243,7 @@ class principal(Funcoes):
         filemenu3.add_command(label='Tocar MP3', command=self.ouvir_mp3)
         filemenu3.add_command(label='Google', command=self.google)
         filemenu3.add_command(label='Gmail', command=self.gmail)
-        filemenu3.add_command(label='Terra', command=self.terra)
+        filemenu3.add_command(label='Terra', command=self.terra)        
 
 principal()
 
