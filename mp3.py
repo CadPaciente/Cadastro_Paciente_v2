@@ -29,4 +29,3 @@ def newOrder():
     pygame.mixer.init()
     pygame.mixer.music.load(r'C:\dev_cadastro_paciente\MP3\New Order.mp3')
     pygame.mixer.music.play(loops=0)
-
