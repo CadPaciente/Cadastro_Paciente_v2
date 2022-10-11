@@ -590,22 +590,22 @@ class Funcoes():
         self.stop_mp3 = Button(self.root2, text='STOP\nMP3', command=self.stop_mp3, relief=FLAT)
         self.stop_mp3.place(x=512, y=356, height=35, width=38)
 
-        self.tearsForFears_botao = Button(self.root2, text='TEARS\nFOR\nFEARS', bg='red', font=('arial', 8, 'bold'), command=self.tears)
+        self.tearsForFears_botao = Button(self.root2, text='1', bg='red', font=('arial', 25, 'bold'), command=self.tears)
         self.tearsForFears_botao.place(x=15, y=290, width=60, height=53)
 
-        self.depeche_botao = Button(self.root2, text='DEPECHE\nMODE', bg='red', font=('arial', 8, 'bold'), command=self.depeche)
+        self.depeche_botao = Button(self.root2, text='2', bg='red', font=('arial', 25, 'bold'), command=self.depeche)
         self.depeche_botao.place(x=77, y=290, width=60, height=53)
 
-        self.weekend_botao = Button(self.root2, text='THE\nWEEKEND', bg='red', font=('arial', 8, 'bold'), command=self.weekend)
+        self.weekend_botao = Button(self.root2, text='3', bg='red', font=('arial', 25, 'bold'), command=self.weekend)
         self.weekend_botao.place(x=138, y=290, width=60, height=53)
 
-        self.eddie_botao = Button(self.root2, text='EDDIE\nVEDDER', bg='red', font=('arial', 8, 'bold'), command=self.eddie)
+        self.eddie_botao = Button(self.root2, text='4', bg='red', font=('arial', 25, 'bold'), command=self.eddie)
         self.eddie_botao.place(x=505, y=290, width=60, height=53)
 
-        self.cold_botao = Button(self.root2, text='COLDPLAY', bg='red', font=('arial', 8, 'bold'), command=self.coldplay)
+        self.cold_botao = Button(self.root2, text='5', bg='red', font=('arial', 25, 'bold'), command=self.coldplay)
         self.cold_botao.place(x=566, y=290, width=68, height=53)
 
-        self.new_botao = Button(self.root2, text='NEW\nORDER', bg='red', font=('arial', 8, 'bold'), command=self.newOrder)
+        self.new_botao = Button(self.root2, text='6', bg='red', font=('arial', 25, 'bold'), command=self.newOrder)
         self.new_botao.place(x=635, y=290, width=60, height=53)
 
     def stop_mp3(self):
